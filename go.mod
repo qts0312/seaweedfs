@@ -4,7 +4,7 @@ go 1.24.1
 
 replace google.golang.org/grpc => github.com/qts0312/grpc v0.0.0-20250912120622-4656bf76be87
 
-require github.com/qts0312/ChaosRPC v0.0.0-20250913084602-6f805c8290c5
+require github.com/qts0312/ChaosRPC v0.0.0-20250913123300-a9c427476b92
 
 require (
 	cloud.google.com/go v0.121.6 // indirect

@@ -28,6 +28,9 @@ EXPOSE 7333
 
 RUN mkdir -p /data/filerldb2
 
+# for ChaosRPC
+RUN echo '{ "call_site": "", "error_code": 0, "wait_time": 5, "test_id": -1 }' > /root/chaos_config.json
+
 VOLUME /data
 WORKDIR /data
 

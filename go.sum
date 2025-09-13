@@ -2004,6 +2004,10 @@ github.com/putdotio/go-putio/putio v0.0.0-20200123120452-16d982cac2b8 h1:Y258uzX
 github.com/putdotio/go-putio/putio v0.0.0-20200123120452-16d982cac2b8/go.mod h1:bSJjRokAHHOhA+XFxplld8w2R/dXLH7Z3BZ532vhFwU=
 github.com/qts0312/ChaosRPC v0.0.0-20250913084602-6f805c8290c5 h1:XCC9Uq/+I2OWe8/CKm4+mBmBF4WjuHi2u3GVK+1Z1Ls=
 github.com/qts0312/ChaosRPC v0.0.0-20250913084602-6f805c8290c5/go.mod h1:lSBOUPLt4DuyjCFBVFqE9kAx7ql2n/0CjtY836Yu2IE=
+github.com/qts0312/ChaosRPC v0.0.0-20250913114530-eae76d5b2511 h1:sdjhk4iVApIjmtIiZLdqUOT+4tFkuUQTpg7+hwo8hK0=
+github.com/qts0312/ChaosRPC v0.0.0-20250913114530-eae76d5b2511/go.mod h1:lSBOUPLt4DuyjCFBVFqE9kAx7ql2n/0CjtY836Yu2IE=
+github.com/qts0312/ChaosRPC v0.0.0-20250913123300-a9c427476b92 h1:cafEB6ZJtVpTwCWY8Z9cirHquYxB6O66LDrosbNP6/s=
+github.com/qts0312/ChaosRPC v0.0.0-20250913123300-a9c427476b92/go.mod h1:lSBOUPLt4DuyjCFBVFqE9kAx7ql2n/0CjtY836Yu2IE=
 github.com/qts0312/grpc v0.0.0-20250912120622-4656bf76be87 h1:amEG2+8NQzIOx7YHf59rG5QWyYGUDLpA44YOfESn6Tw=
 github.com/qts0312/grpc v0.0.0-20250912120622-4656bf76be87/go.mod h1:Ju12QI8M6iQJtbcsV+awF5a4hfJMLi4X0JLo94ULZ6c=
 github.com/quic-go/quic-go v0.53.0 h1:QHX46sISpG2S03dPeZBgVIZp8dGagIaiu2FiVYvpCZI=
