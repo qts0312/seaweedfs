@@ -21,6 +21,8 @@ import (
 	"github.com/seaweedfs/seaweedfs/weed/command"
 	"github.com/seaweedfs/seaweedfs/weed/glog"
 	util_http "github.com/seaweedfs/seaweedfs/weed/util/http"
+
+	chaosrpc "github.com/qts0312/ChaosRPC/pkg/grpc"
 )
 
 var IsDebug *bool
@@ -85,6 +87,8 @@ func main() {
 		}
 		return
 	}
+
+	chaosrpc.Init()
 
 	util_http.InitGlobalHttpClient()
 	for _, cmd := range commands {

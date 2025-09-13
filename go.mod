@@ -1,8 +1,10 @@
 module github.com/seaweedfs/seaweedfs
 
-go 1.24.0
+go 1.24.1
 
-toolchain go1.24.1
+replace google.golang.org/grpc => github.com/qts0312/grpc v0.0.0-20250912120622-4656bf76be87
+
+require github.com/qts0312/ChaosRPC v0.0.0-20250913084602-6f805c8290c5
 
 require (
 	cloud.google.com/go v0.121.6 // indirect
@@ -110,7 +112,7 @@ require (
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/api v0.247.0
 	google.golang.org/genproto v0.0.0-20250715232539-7130f93afb79 // indirect
-	google.golang.org/grpc v1.75.0
+	google.golang.org/grpc v1.75.1
 	google.golang.org/protobuf v1.36.8
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	modernc.org/b v1.0.0 // indirect
@@ -302,7 +304,7 @@ require (
 	github.com/gin-contrib/sse v1.0.0 // indirect
 	github.com/go-chi/chi/v5 v5.2.2 // indirect
 	github.com/go-darwin/apfs v0.0.0-20211011131704-f84b94dbf348 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.1 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.2 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
